@@ -1,6 +1,6 @@
-# Brain gamea
+# Brain games
 
-The project consists of 2 exciting intellectual games.(even,calc)
+The project consists of 2 exciting intellectual games.(even,calc,gcd)
 
 ## Installation
 
@@ -19,4 +19,6 @@ The project consists of 2 exciting intellectual games.(even,calc)
     brain-even
     <!-- run the calc -->
     brain-calc
+    <!-- run the gcd -->
+    brain-gcd
     ```
