@@ -1,4 +1,4 @@
-from user_dialogs.user import welcome_user, question_user
+from games.user_dialogs.user import welcome_user, question_user
 
 
 def game(generate_question, welcomeGame):

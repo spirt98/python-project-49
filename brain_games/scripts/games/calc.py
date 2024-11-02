@@ -1,5 +1,5 @@
 from random import randint
-from body_game import game
+from games.body_games import game
 
 
 def calc(number1: int, number2: int, operator: str):
@@ -31,11 +31,3 @@ def game_calc():
     welcome_game = 'What is the result of the expression?'
 
     game(generate_question, welcome_game)
-
-
-def main():
-    game_calc()
-
-
-if __name__ == "__main__":
-    main()
