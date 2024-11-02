@@ -1,11 +1,16 @@
-start:
+install: lint build package-install publish # install and publish application
+
+start: # run applicaion
 	poetry run brain-games
 
-build:
+lint:
+	poetry run flake8 brain_games
+
+build: # build application
 	poetry build
 
-publish:
+publish: # test publish application
 	poetry publish --dry-run
 
-package-install:
-	pip install --user dist\hexlet_code-0.1.0-py3-none-any.whl
+package-install: # install aplication in environment
+	pip install --user --force-reinstall dist\hexlet_code-0.1.0-py3-none-any.whl
