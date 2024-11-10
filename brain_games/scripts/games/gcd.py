@@ -14,6 +14,6 @@ def generate_question():
 
 
 def game_gcd():
-    welcome_game = 'Find the greatest common divisor of given numbers.'
+    welcomeGame = 'Find the greatest common divisor of given numbers.'
 
-    game(generate_question, welcome_game)
+    game(generate_question, welcomeGame)
