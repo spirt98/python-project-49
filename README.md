@@ -1,6 +1,6 @@
 # Brain games
 
-The project consists of 2 exciting intellectual games.(even,calc,gcd, progression, prime)
+The project contains 5 exciting intellectual games.(even, calc, gcd, progression, prime)
 
 ## Installation
 
