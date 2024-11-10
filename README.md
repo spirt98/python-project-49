@@ -1,6 +1,6 @@
 # Brain games
 
-The project consists of 2 exciting intellectual games.(even,calc,gcd, progression)
+The project consists of 2 exciting intellectual games.(even,calc,gcd, progression, prime)
 
 ## Installation
 
@@ -23,4 +23,6 @@ The project consists of 2 exciting intellectual games.(even,calc,gcd, progressio
     brain-gcd
     <!-- run the progression -->
     brain-progression
+    <!-- run the prime -->
+    brain-prime
     ```

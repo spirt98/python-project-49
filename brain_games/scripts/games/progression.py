@@ -18,6 +18,6 @@ def generate_question():
 
 
 def game_progression():
-    welcomeGame = 'Welcome to the Brain Games!'
+    welcomeGame = 'What number is missing in the progression?'
 
     game(generate_question, welcomeGame)
